@@ -15,7 +15,7 @@
     "@sledge/anvil": "npm:@sledge-pdm/anvil@^1.0.7",
     "@sledge/core": "npm:@sledge-pdm/misc@^1.0.0",
     "@sledge/theme": "npm:@sledge-pdm/theme@^1.0.3",
-    "@sledge/ui": "npm:@sledge-pdm/ui@^1.0.12",
+    "@sledge/ui": "npm:@sledge-pdm/ui@^1.0.14",
     "@solid-primitives/timer": "^1.4.3",
     "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.15.4",
