@@ -71,10 +71,10 @@ const TopBar: Component = () => {
       <ThemeToggle />
       <div class={iconContainer}>
         <a href='https://x.com/sledge_app' target='_blank' title='@sledge_app'>
-          <Icon src='/icons/x_16.png' base={16} />
+          <Icon src='/assets/icons/x_16.png' base={16} />
         </a>
         <a href='https://github.com/sledge-pdm/sledge' target='_blank' title='sledge-pdm/sledge'>
-          <Icon src='/icons/github_16.png' base={16} />
+          <Icon src='/assets/icons/github_16.png' base={16} />
         </a>
       </div>
     </div>

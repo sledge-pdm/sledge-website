@@ -8,7 +8,7 @@ const Eraser: Component = () => {
     <>
       <Title>sledge. - eraser</Title>
       <div class={wikiContentRoot}>
-        <WikiContentHeader iconSrc='/icons/wiki/wiki_eraser.png'>Eraser</WikiContentHeader>
+        <WikiContentHeader iconSrc='/wiki/icons/wiki_eraser.png'>Eraser</WikiContentHeader>
         <div class={wikiMarkdown}>
           <h2>About</h2>
 

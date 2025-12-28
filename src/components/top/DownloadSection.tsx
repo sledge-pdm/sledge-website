@@ -217,7 +217,7 @@ const DownloadButton: Component<{
           gap: '6px',
         }}
       >
-        <Icon src='/icons/misc/save.png' base={8} style={{ width: '16px', height: '16px', 'margin-bottom': '-4px' }} />
+        <Icon src='/assets/icons/misc/save.png' base={8} style={{ width: '16px', height: '16px', 'margin-bottom': '-4px' }} />
         Download
       </Button>
       <p class={assetOSText}>For {os}</p>

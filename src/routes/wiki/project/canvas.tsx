@@ -8,7 +8,7 @@ const Canvas: Component = () => {
     <>
       <Title>sledge. - canvas</Title>
       <div class={wikiContentRoot}>
-        <WikiContentHeader iconSrc='/icons/wiki/wiki_canvas.png'>Canvas</WikiContentHeader>
+        <WikiContentHeader iconSrc='/wiki/icons/wiki_canvas.png'>Canvas</WikiContentHeader>
         <div class={wikiMarkdown}>
           <h2>About</h2>
           <p>Canvas size and view settings (zoom/offset/rotation/flip) are managed together so drawing and overlays stay aligned.</p>

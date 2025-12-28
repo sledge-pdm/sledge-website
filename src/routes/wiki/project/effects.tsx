@@ -8,7 +8,7 @@ const Effects: Component = () => {
     <>
       <Title>sledge. - effects</Title>
       <div class={wikiContentRoot}>
-        <WikiContentHeader iconSrc='/icons/wiki/wiki_effects.png'>Effects</WikiContentHeader>
+        <WikiContentHeader iconSrc='/wiki/icons/wiki_effects.png'>Effects</WikiContentHeader>
         <div class={wikiMarkdown}>
           <h2>About</h2>
           <ul>

@@ -8,7 +8,7 @@ const Layer: Component = () => {
     <>
       <Title>sledge. - layer</Title>
       <div class={wikiContentRoot}>
-        <WikiContentHeader iconSrc='/icons/wiki/wiki_layer.png'>Layer</WikiContentHeader>
+        <WikiContentHeader iconSrc='/wiki/icons/wiki_layer.png'>Layer</WikiContentHeader>
         <div class={wikiMarkdown}>
           <h2>About</h2>
           <p>Layers store drawable buffers with blend properties. Operations (add/duplicate/merge/order) update history and previews.</p>

@@ -8,7 +8,7 @@ const OnscreenControl: Component = () => {
     <>
       <Title>sledge. - onscreen control</Title>
       <div class={wikiContentRoot}>
-        <WikiContentHeader iconSrc='/icons/wiki/wiki_onscreen_control.png'>Onscreen Control</WikiContentHeader>
+        <WikiContentHeader iconSrc='/wiki/icons/wiki_onscreen_control.png'>Onscreen Control</WikiContentHeader>
         <div class={wikiMarkdown}>
           <h2>About</h2>
           <p>A floating controller for pan/zoom. It mimics an analog stick and can be dragged anywhere over the UI.</p>

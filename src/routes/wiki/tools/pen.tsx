@@ -8,7 +8,7 @@ const Pen: Component = () => {
     <>
       <Title>sledge. - pen</Title>
       <div class={wikiContentRoot}>
-        <WikiContentHeader iconSrc='/icons/wiki/wiki_pen.png'>Pen</WikiContentHeader>
+        <WikiContentHeader iconSrc='/wiki/icons/wiki_pen.png'>Pen</WikiContentHeader>
         <div class={wikiMarkdown}>
           <h2>About</h2>
 

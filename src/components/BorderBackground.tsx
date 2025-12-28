@@ -7,7 +7,7 @@ const borderBg = css`
   height: 100%;
   width: 100%;
   opacity: 0.2;
-  background: url(/icons/misc/tex_45border_16_gr.png) left top;
+  background: url(/assets/icons/misc/tex_45border_16_gr.png) left top;
   background-repeat: repeat;
   background-size: 16px 16px;
 `;

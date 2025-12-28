@@ -8,7 +8,7 @@ const Selections: Component = () => {
     <>
       <Title>sledge. - selections</Title>
       <div class={wikiContentRoot}>
-        <WikiContentHeader iconSrc='/icons/wiki/wiki_selections.png'>Selections</WikiContentHeader>
+        <WikiContentHeader iconSrc='/wiki/icons/wiki_selections.png'>Selections</WikiContentHeader>
         <div class={wikiMarkdown}>
           <h2>About</h2>
           <p>

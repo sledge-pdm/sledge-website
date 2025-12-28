@@ -8,7 +8,7 @@ const Clipboard: Component = () => {
     <>
       <Title>sledge. - clipboard</Title>
       <div class={wikiContentRoot}>
-        <WikiContentHeader iconSrc={'/icons/wiki/wiki_clipboard.png'}>Clipboard</WikiContentHeader>
+        <WikiContentHeader iconSrc={'/wiki/icons/wiki_clipboard.png'}>Clipboard</WikiContentHeader>
         <div class={wikiMarkdown}>
           <h2>About</h2>
           <p>

@@ -23,7 +23,7 @@ export const subHeadingContainer = css`
 export const SubHeadingWithDot: Component<JSX.HTMLAttributes<HTMLParagraphElement>> = (props) => {
   return (
     <div class={subHeadingContainer}>
-      <Icon src='/icons/misc/bullet_s_8.png' base={8} color={'var(--color-on-background)'} />
+      <Icon src='/assets/icons/misc/bullet_s_8.png' base={8} color={'var(--color-on-background)'} />
       <p class={subHeading} {...props}>
         {props.children}
       </p>
@@ -34,7 +34,7 @@ export const SubHeadingWithDot: Component<JSX.HTMLAttributes<HTMLParagraphElemen
 export const SubHeadingWithCheck: Component<JSX.HTMLAttributes<HTMLParagraphElement>> = (props) => {
   return (
     <div class={subHeadingContainer}>
-      <Icon src='/icons/misc/check_8.png' base={8} color={'var(--color-enabled)'} />
+      <Icon src='/assets/icons/misc/check_8.png' base={8} color={'var(--color-enabled)'} />
       <p class={subHeading} {...props}>
         {props.children}
       </p>
@@ -45,7 +45,7 @@ export const SubHeadingWithCheck: Component<JSX.HTMLAttributes<HTMLParagraphElem
 export const SubHeadingWithX: Component<JSX.HTMLAttributes<HTMLParagraphElement>> = (props) => {
   return (
     <div class={subHeadingContainer}>
-      <Icon src='/icons/misc/remove.png' base={8} color={'var(--color-error)'} />
+      <Icon src='/assets/icons/misc/remove.png' base={8} color={'var(--color-error)'} />
       <p class={subHeading} {...props}>
         {props.children}
       </p>

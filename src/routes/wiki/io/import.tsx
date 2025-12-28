@@ -8,7 +8,7 @@ const Import: Component = () => {
     <>
       <Title>sledge. - import</Title>
       <div class={wikiContentRoot}>
-        <WikiContentHeader iconSrc='/icons/wiki/wiki_import.png'>Import</WikiContentHeader>
+        <WikiContentHeader iconSrc='/wiki/icons/wiki_import.png'>Import</WikiContentHeader>
         <div class={wikiMarkdown}>
           <h2>About</h2>
           <p>

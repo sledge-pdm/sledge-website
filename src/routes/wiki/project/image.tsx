@@ -8,7 +8,7 @@ const ImagePool: Component = () => {
     <>
       <Title>sledge. - image pool</Title>
       <div class={wikiContentRoot}>
-        <WikiContentHeader iconSrc='/icons/wiki/wiki_image_pool.png'>Image Pool</WikiContentHeader>
+        <WikiContentHeader iconSrc='/wiki/icons/wiki_image_pool.png'>Image Pool</WikiContentHeader>
         <div class={wikiMarkdown}>
           <h2>About</h2>
           <p>

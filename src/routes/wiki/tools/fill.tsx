@@ -8,7 +8,7 @@ const Fill: Component = () => {
     <>
       <Title>sledge. - fill</Title>
       <div class={wikiContentRoot}>
-        <WikiContentHeader iconSrc='/icons/wiki/wiki_fill.png'>Fill</WikiContentHeader>
+        <WikiContentHeader iconSrc='/wiki/icons/wiki_fill.png'>Fill</WikiContentHeader>
         <div class={wikiMarkdown}>
           <h2>About</h2>
 
@@ -44,7 +44,7 @@ const Fill: Component = () => {
 
           <h4>Demo</h4>
           <div>
-            <img width={500} alt='Fill threshold demo' src='/wiki/tools/fill/threshold_demo.gif' />
+            <img width={500} alt='Fill threshold demo' src='/tools/fill/threshold_demo.gif' />
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ export default defineConfig({
   build: {
     target: 'esnext',
   },
-  publicDir: 'assets',
+  publicDir: './public',
   optimizeDeps: {
     exclude: [
       '@sledge/core',
@@ -33,6 +33,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '~': path.join(__dirname, 'src'),
+      '@assets': path.join(__dirname, '/public/assets'),
     }
   }
 });

@@ -8,7 +8,7 @@ const Export: Component = () => {
     <>
       <Title>sledge. - export</Title>
       <div class={wikiContentRoot}>
-        <WikiContentHeader iconSrc='/icons/wiki/wiki_export.png'>Export</WikiContentHeader>
+        <WikiContentHeader iconSrc='/wiki/icons/wiki_export.png'>Export</WikiContentHeader>
         <div class={wikiMarkdown}>
           <h2>About</h2>
           <p>Export saves the current canvas to image files. You can export the whole canvas or each layer as separate files.</p>

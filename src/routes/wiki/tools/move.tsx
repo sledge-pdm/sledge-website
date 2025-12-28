@@ -8,7 +8,7 @@ const Move: Component = () => {
     <>
       <Title>sledge. - move</Title>
       <div class={wikiContentRoot}>
-        <WikiContentHeader iconSrc='/icons/wiki/wiki_move.png'>Move</WikiContentHeader>
+        <WikiContentHeader iconSrc='/wiki/icons/wiki_move.png'>Move</WikiContentHeader>
         <div class={wikiMarkdown}>
           <h2>About</h2>
           <p>Move drags the current selection. If no selection exists, it temporarily selects the whole active layer and drags that buffer.</p>
