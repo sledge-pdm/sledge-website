@@ -1,4 +1,4 @@
-import { type Theme } from '@sledge/theme';
+import { type Theme } from '@sledge-pdm/ui';
 import { createStore } from 'solid-js/store';
 
 export const [globalStore, setGlobalStore] = createStore<{

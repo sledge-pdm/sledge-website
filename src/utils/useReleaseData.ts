@@ -1,4 +1,4 @@
-import { Asset, getDebugReleaseData, getReleaseData, os, osBuildInfos, ReleaseData } from '@sledge/core';
+import { Asset, getDebugReleaseData, getReleaseData, os, osBuildInfos, ReleaseData } from '@sledge-pdm/core';
 import { createSignal, onMount } from 'solid-js';
 
 export const useReleaseData = () => {

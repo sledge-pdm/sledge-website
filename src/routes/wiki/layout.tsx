@@ -1,5 +1,5 @@
 import { css } from '@acab/ecsstatic';
-import { clsx } from '@sledge/core';
+import { clsx } from '@sledge-pdm/core';
 import { RouteSectionProps } from '@solidjs/router';
 import { Component } from 'solid-js';
 import WikiSection from '~/components/wiki/WikiSection';

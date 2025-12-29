@@ -1,5 +1,5 @@
 import { css } from '@acab/ecsstatic';
-import { clsx } from '@sledge/core';
+import { clsx } from '@sledge-pdm/core';
 import { Title } from '@solidjs/meta';
 import { Show } from 'solid-js';
 import BorderBackground from '~/components/BorderBackground';

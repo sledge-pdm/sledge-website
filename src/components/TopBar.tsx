@@ -1,6 +1,6 @@
 import { css } from '@acab/ecsstatic';
-import { clsx } from '@sledge/core';
-import { Icon } from '@sledge/ui';
+import { clsx } from '@sledge-pdm/core';
+import { Icon } from '@sledge-pdm/ui';
 import { useLocation } from '@solidjs/router';
 import { Component, createMemo } from 'solid-js';
 import ThemeToggle from '~/components/ThemeToggle';

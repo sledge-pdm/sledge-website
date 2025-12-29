@@ -24,16 +24,12 @@ export default defineConfig({
   },
   publicDir: './public',
   optimizeDeps: {
-    exclude: [
-      '@sledge/core',
-      '@sledge/theme',
-      '@sledge/ui',
-    ]
+    exclude: ['@sledge-pdm/core', '@sledge-pdm/theme', '@sledge-pdm/ui'],
   },
   resolve: {
     alias: {
       '~': path.join(__dirname, 'src'),
       '@assets': path.join(__dirname, '/public/assets'),
-    }
-  }
+    },
+  },
 });

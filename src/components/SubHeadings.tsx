@@ -1,5 +1,5 @@
 import { css } from '@acab/ecsstatic';
-import { Icon } from '@sledge/ui';
+import { Icon } from '@sledge-pdm/ui';
 import { Component, JSX } from 'solid-js';
 
 export const subHeading = css`

@@ -8,14 +8,14 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "prettier": "prettier --write 'src/**/*.{ts,tsx,css,module.css}' --config ../../.prettierrc"
+    "prettier": "prettier --write . --config .prettierrc",
+    "format": "pnpm prettier"
   },
   "license": "MIT",
   "dependencies": {
-    "@sledge/anvil": "npm:@sledge-pdm/anvil@^1.0.7",
-    "@sledge/core": "npm:@sledge-pdm/misc@^1.0.0",
-    "@sledge/theme": "npm:@sledge-pdm/theme@^1.0.3",
-    "@sledge/ui": "npm:@sledge-pdm/ui@^1.0.14",
+    "@sledge-pdm/anvil": "^1.1.2",
+    "@sledge-pdm/core": "^1.0.5",
+    "@sledge-pdm/ui": "^1.1.3",
     "@solid-primitives/timer": "^1.4.3",
     "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.15.4",
@@ -30,6 +30,8 @@
     "vite-plugin-node-polyfills": "^0.24.0",
     "vite-plugin-solid": "^2.11.10",
     "vite-plugin-top-level-await": "^1.6.0",
-    "vite-plugin-wasm": "^3.5.0"
+    "vite-plugin-wasm": "^3.5.0",
+    "prettier": "^3.7.4",
+    "prettier-plugin-organize-imports": "^4.3.0"
   }
 }

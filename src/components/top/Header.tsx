@@ -1,5 +1,5 @@
 import { css } from '@acab/ecsstatic';
-import { Asset, os, ReleaseData } from '@sledge/core';
+import { Asset, os, ReleaseData } from '@sledge-pdm/core';
 import { makeTimer } from '@solid-primitives/timer';
 import { Accessor, Component, createSignal, onMount, Show } from 'solid-js';
 import { JSX } from 'solid-js/h/jsx-runtime';

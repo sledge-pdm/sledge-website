@@ -1,7 +1,6 @@
 import { css } from '@acab/ecsstatic';
-import { Asset, os, ReleaseData } from '@sledge/core';
-import { fonts } from '@sledge/theme';
-import { Button, Icon } from '@sledge/ui';
+import { Asset, os, ReleaseData } from '@sledge-pdm/core';
+import { Button, fonts, Icon } from '@sledge-pdm/ui';
 import { Accessor, Component, For, Show } from 'solid-js';
 import { globalStore } from '~/store/GlobalStore';
 

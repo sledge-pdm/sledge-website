@@ -1,5 +1,5 @@
 import { css } from '@acab/ecsstatic';
-import { applyTheme } from '@sledge/theme';
+import { applyTheme } from '@sledge-pdm/ui';
 import { MetaProvider } from '@solidjs/meta';
 import { Route, Router } from '@solidjs/router';
 import { inject } from '@vercel/analytics';
@@ -30,7 +30,7 @@ import Selections from '~/routes/wiki/tools/selections';
 import { globalStore } from '~/store/GlobalStore';
 import { flexCol } from '~/styles';
 
-import '@sledge/theme/global.css';
+import '@sledge-pdm/ui/global.css';
 
 const rootContainer = css`
   display: flex;
